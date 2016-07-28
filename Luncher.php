@@ -155,8 +155,8 @@ $pmembersid= explode("\n",$txxt);
         }
     }else if ($text == "Version") {
       apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>پیام رسان ساز شما</b>
-      <b>برای دیدن نحوه نصب به کانال</b> @IR_TEAM <b>مراجعه کنید</B>
-      <b>با تشکر از</b> <code>arshiaHP</code> <b>به خاطر کمک در ساخت ربات</b>","parse_mode"=>"html"));
+      <b>برای دیدن نحوه نصب به کانال @IR_TEAM مراجعه کنید</.b>
+      <b>با تشکر<b>"parse_mode"=>"html"));
     }
     else if ($matches[0] == "/update"&& strpos($matches[1], ":")) {
       
