@@ -217,7 +217,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=pvresanbot
+ https://telegram.me/storebot?start=pvresansaz_bot
 .";
     
     $bot_url    = "https://api.telegram.org/bot248070370:AAHslEYpX3hx3o9ElkgoYW4eWYP3ZaVgW7o/"; 
