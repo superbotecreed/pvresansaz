@@ -154,8 +154,8 @@ $pmembersid= explode("\n",$txxt);
 
         }
     }else if ($text == "Version") {
-      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>Your PM Receiver bot</b>
-      <b>Thanks to arshia . By : @MR_Creed</b>"parse_mode"=>"html"));
+      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "Your PM Receiver bot
+      Thanks to arshia . By : @MR_Creed"parse_mode"=>"html"));
     }
     else if ($matches[0] == "/update"&& strpos($matches[1], ":")) {
       
